@@ -30,7 +30,7 @@ header {
 }
 
 img {
-  width: 30px;
+  width: 3rem;
 }
 
 ul {
@@ -99,9 +99,10 @@ a:hover {
   height: 100%;
   position: absolute;
   top: 0;
-  display: none;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .modal-contents {
@@ -126,7 +127,7 @@ input {
   position: absolute;
   top: 0;
   right: 10px;
-  font-size: 42px;
+  font-size: 40px;
   color: #333;
   transform: rotate(45deg);
   cursor: pointer;
