@@ -50,6 +50,16 @@ a:hover {
   text-decoration: underline;
 }
 
+.hero {
+  background-image: url(/assets/images/bgl.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 .button {
   background: var(--blue);
   padding: 1em 2em;
@@ -60,75 +70,68 @@ a:hover {
 }
 
 .button:hover {
-  background: #3876ac;
+  background:#ffffff;
+  color: var(--blue);
+  border: 2px solid var(--blue);
 }
 
-.modal {
-  /* display: none; */
-  position: fixed;
-  /* z-index: 1; */
-  left: 0;
-  top: 0;
-  height: 100%;
+.card-container {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: 300px;
+  width: 230px;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+/* // MODAL STARTS HERE // */
+
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.modal-content {
-  margin: 10% auto;
-  width: 60%;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
-  animation-name: modalopen;
-  animation-duration: var(--modal-duration);
-}
-
-.modal-header h2,
-.modal-footer h3 {
-  margin: 0;
-}
-
-.modal-header {
-  background: var(--modal-color);
-  padding: 15px;
-  color: #fff;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.modal-body {
-  padding: 10px 20px;
-  background: #fff;
-}
-
-.modal-footer {
-  background: var(--modal-color);
-  padding: 10px;
-  color: #fff;
+.modal-contents {
+  height: 300px;
+  width: 500px;
+  background-color: white;
   text-align: center;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  padding: 20px;
+  position: relative;
+  border-radius: 4px;
+}
+
+input {
+  margin: 15px auto;
+  display: block;
+  width: 50%;
+  padding: 8px;
+  border: 1px solid gray;
 }
 
 .close {
-  color: #ccc;
-  float: right;
-  font-size: 30px;
-  color: #fff;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  color: #333;
+  transform: rotate(45deg);
   cursor: pointer;
 }
 
-@keyframes modalopen {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.close:hover {
+  color: #666;
 }
