@@ -2,7 +2,7 @@
 This project is about creating a modal(popup) onload
 # Mini-Classwork_Ezekiel
 # About The Project
-This project is about creating a eatery webpage
+This project is about creating a webpage with a modal popup subscription form
 
 ## 
 # Image
