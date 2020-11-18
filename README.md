@@ -6,7 +6,7 @@ This project is about creating a webpage with a modal popup subscription form
 
 ## 
 # Image
-![Homepage.](/assets/images/Screenshot 2020-11-06 154706) "This is the Home web page")
+![Homepage]('landing.png').) "This is the landing page")
 
 # Built With
 * CSS
