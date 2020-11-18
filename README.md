@@ -1,16 +1,16 @@
-# modal_assignment
-This project is about creating a modal(popup) onload
-# Mini-Classwork_Ezekiel
+
+# Modal-Assignment
 # About The Project
 This project is about creating a webpage with a modal popup subscription form
 
 ## 
 # Image
-![Homepage]('landing.png').) "This is the landing page")
+![]('landing.png').("This is the landing page")
 
 # Built With
 * CSS
 * HTML
+* Javascript
 
 # Author
 * 👨‍🦱Ezekiel Ogunniwa
