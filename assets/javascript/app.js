@@ -4,11 +4,10 @@ const closeIcon = document.querySelector(".close");
 
 button.addEventListener("click", openModal);
 function openModal() {
-    bgModal.style.display = "flex";
+  bgModal.style.display = "flex";
 
 closeIcon.addEventListener('click', closeModal);
 function closeModal() {
   bgModal.style.display ='none'
 }
-
 }
