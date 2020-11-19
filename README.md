@@ -32,7 +32,9 @@ This project is about creating a webpage with a modal popup subscription form, A
   * https://www.linkedin.com/company/michub/
 
 # Live Demo
-[See project live here] (https://raw.githack.com/Eminentzeal/modal_assignment/main/index.html)
+[See project live here] (https://eminentezekiel-modal.netlify.app/)
 
 ## 🤝 Contributions
 * This project is open to your comments and contributions, kindly reach the author through the above author's social media handles.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a77d46d3-ea5d-477f-90fa-e04330c53e7b/deploy-status)](https://app.netlify.com/sites/eminentezekiel-modal/deploys)
