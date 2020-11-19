@@ -32,7 +32,7 @@ This project is about creating a webpage with a modal popup subscription form, A
   * https://www.linkedin.com/company/michub/
 
 # Live Demo
-[See project live here] (https://eminentezekiel-modal.netlify.app/)
+[Click Here to see project live](https://eminentezekiel-modal.netlify.app/)
 
 ## 🤝 Contributions
 * This project is open to your comments and contributions, kindly reach the author through the above author's social media handles.
