@@ -2,7 +2,7 @@ const button = document.querySelector("#button");
 const bgModal = document.querySelector(".bg-modal");
 const closeIcon = document.querySelector(".close");
 
-button.addEventListener("click", openModal);
+button.addEventListener("mouseover", openModal);
 function openModal() {
   bgModal.style.display = "flex";
 
